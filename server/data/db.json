@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "userId": "9e243930-83c9-11e9-8e0c-8f1a60000000",
+      "avatar": "https://resizing.flixster.com/PCEX63VBu7wVvdt9Eq-FrTI6d_4=/300x300/v1.cjs0MzYxNjtqOzE4NDk1OzEyMDA7MzQ5OzMxMQ",
+      "role": "admin",
+      "id": "0",
+      "likes": [
+        "80e00b40-1b8f-11e8-9629-1643749306567",
+        "80e00b40-1b8f-11e8-9629-c7eca82aa7bd"
+      ]
+    },
+    {
+      "username": "Ruth",
+      "password": "1",
+      "userId": "9e243930-83c9-11e9-8e0c-8f1a686f4ce4",
+      "avatar": "https://resizing.flixster.com/kr0IphfLGZqni5JOWDS2P1-zod4=/280x250/v1.cjs0OTQ2NztqOzE4NDk1OzEyMDA7MjgwOzI1MA",
+      "role": "user",
+      "id": "1",
+      "likes": []
+    },
+    {
+      "username": "Wendy",
+      "password": "2",
+      "userId": "533b5230-1b8f-11e8-9629-c7eca82aa7bd",
+      "avatar": "https://resizing.flixster.com/EVAkglctn7E9B0hVKJrueplabuQ=/220x196/v1.cjs0NjYwNjtqOzE4NDk1OzEyMDA7MjIwOzE5Ng",
+      "role": "user",
+      "id": "2",
+      "likes": []
+    }
+  ],
+  "messages": [
+    {
+      "id": "80e00b40-1b8f-11e8-9629-c7eca82aa7bd",
+      "userId": "533b5230-1b8f-11e8-9629-c7eca82aa7bd",
+      "avatar": "https://resizing.flixster.com/EVAkglctn7E9B0hVKJrueplabuQ=/220x196/v1.cjs0NjYwNjtqOzE4NDk1OzEyMDA7MjIwOzE5Ng",
+      "user": "Wendy",
+      "text": "Tells exactly what happened.",
+      "createdAt": "2020-07-16T19:48:42.481Z",
+      "editedAt": "2020-07-16T19:48:47.481Z"
+    },
+    {
+      "id": "80e00b40-1b8f-11e8-9629-1643749306567",
+      "userId": "9e243930-83c9-11e9-8e0c-8f1a686f4ce4",
+      "avatar": "https://resizing.flixster.com/kr0IphfLGZqni5JOWDS2P1-zod4=/280x250/v1.cjs0OTQ2NztqOzE4NDk1OzEyMDA7MjgwOzI1MA",
+      "user": "Ruth",
+      "text": "as",
+      "createdAt": "2022-02-01T21:01:46.567Z",
+      "editedAt": ""
+    }
+  ],
+  "activeUser": {}
+}

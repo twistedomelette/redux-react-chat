@@ -1,0 +1,36 @@
+.form-user {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 5%;
+    margin: 12% 30%;
+    position: absolute;
+}
+
+.form-group-user {
+    display: flex;
+    gap: 5px;
+}
+
+.form-group-user input {
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+.label-username, .label-password {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.group-buttons > input {
+    margin: 10px 50px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.group-buttons {
+    display: flex;
+}

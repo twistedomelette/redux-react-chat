@@ -1,0 +1,33 @@
+.user-component {
+    width: 270px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.user-component {
+    display: grid;
+    grid-template-columns: 160px 50px 60px;
+    align-items: center;
+    justify-items: center;
+}
+
+.user-component input {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    height: 25px;
+}
+
+.edit-user-button {
+    border: 1px solid black;
+    padding: 0 5px 2px;
+    /*margin-bottom: 1px;*/
+    /*width: 35px;*/
+    /*height: 20px;*/
+}
+
+.edit-user-link {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,51 @@
+.message {
+    display: grid;
+    grid-auto-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+            "a n n"
+            ". text text"
+            ". time l";
+    align-items: center;
+    grid-gap: 2px;
+    border: 1px solid red;
+    margin-right: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.message-user-avatar {
+    grid-area: a;
+}
+
+.message-user-avatar > img {
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.message-user-name {
+    text-align: center;
+    grid-area: n;
+}
+
+.message-text {
+    /*text-align: center;*/
+    margin-bottom: 5px;
+    grid-area: text;
+}
+
+.message-time {
+    justify-self: end;
+    margin-right: 10px;
+    grid-area: time;
+    font-size: 13px;
+}
+
+.message-like {
+    grid-area: l;
+}
+
+.item {
+    /*border: 1px solid black;*/
+}

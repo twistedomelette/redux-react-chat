@@ -1,0 +1,27 @@
+.message-list {
+    display: flex;
+    border: 1px solid black;
+    overflow: auto;
+    margin-bottom: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.message-list::-webkit-scrollbar {
+    display: none;
+}
+
+.message-list > ul {
+    margin: 0;
+    list-style-type: none;
+}
+li {
+    display: block;
+}
+.newData {
+    width: 560px;
+    text-align: right;
+}
+.own-message {
+    position: center;
+}

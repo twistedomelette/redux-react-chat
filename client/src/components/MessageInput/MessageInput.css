@@ -1,0 +1,26 @@
+.message-input > form{
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-input-text > input {
+    width: 27rem;
+    height: 25px;
+}
+
+.message-input-button > input {
+    width: 75px;
+    height: 32px;
+}
+
+.users-link {
+    text-decoration: none;
+    color: black;
+}
+
+/*.users-link-container {*/
+/*    margin-right: 20px;*/
+/*}*/

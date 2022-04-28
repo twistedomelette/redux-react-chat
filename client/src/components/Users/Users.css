@@ -1,0 +1,27 @@
+.users-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+                "b l"
+                "c c";
+    margin: 8% 25%;
+    padding: 12px;
+}
+
+
+.back-user-link {
+    grid-area: l;
+    justify-self: end;
+}
+
+.all-users-container {
+    grid-area: c;
+    margin-right: 32px;
+    justify-self: center;
+}
+
+.user-link, .add-user-link {
+    text-decoration: none;
+    color: black;
+}

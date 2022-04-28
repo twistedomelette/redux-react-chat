@@ -1,0 +1,46 @@
+.edit-message-modal {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+    z-index: 10;
+}
+
+.form-edit {
+    display: grid;
+    grid-template-columns: 1fr 40px auto;
+    grid-template-rows: 30px 100px auto;
+    grid-template-areas:
+            "t t t"
+            "i i i"
+            ". b c";
+    align-items: center;
+}
+
+.form-edit input {
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.edit-message-input {
+    grid-area: i;
+}
+
+.edit-message-button {
+    grid-area: b;
+}
+
+.edit-message-close {
+    grid-area: c;
+}
+
+.edit-title {
+    justify-self: center;
+    grid-area: t;
+    font-size: 18px;
+}

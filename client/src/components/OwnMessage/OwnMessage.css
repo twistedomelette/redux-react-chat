@@ -1,0 +1,25 @@
+.own-message {
+    display: grid;
+    grid-auto-columns: 1fr auto auto;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+            "text text text"
+            "time e d";
+    align-items: center;
+    grid-gap: 2px;
+    border: 1px solid darkblue;
+    margin-right: 40%;
+    position: relative;
+    left: 120%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.message-edit {
+    grid-area: e;
+}
+
+.message-delete {
+    grid-area: d;
+}

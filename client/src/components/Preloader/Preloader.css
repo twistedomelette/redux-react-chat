@@ -1,0 +1,6 @@
+.preloader {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 18% 45%;
+}
